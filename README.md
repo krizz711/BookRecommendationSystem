@@ -28,6 +28,33 @@ A content-based book recommendation system that uses semantic embeddings to sugg
 | `book_index.faiss`             | FAISS index for vector search |
 ---
 
+## 📊 Data Source
+
+The book metadata was sourced from the Kaggle dataset [**7k+ Books with Metadata**](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata). It was downloaded using the [`kagglehub`](https://github.com/kagglehub/kagglehub) library:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("dylanjcastillo/7k-books-with-metadata")
+print("Path to dataset files:", path)
+
+---
+
+## 🔧 Cleaning Process
+
+The original dataset was cleaned and saved as book_cleaned.csv. Cleaning involved:
+
+Removing unused or inconsistent columns
+
+Handling missing values (e.g., filling missing descriptions with empty strings)
+
+Renaming and standardizing columns
+
+Ensuring the dataset is ready for semantic embedding and indexing
+
+This cleaned CSV is the primary input used for generating embeddings and building the recommendation system.
+
 
 ## ⚙️ Installation
 

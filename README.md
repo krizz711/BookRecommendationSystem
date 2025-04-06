@@ -15,18 +15,18 @@ A content-based book recommendation system that uses semantic embeddings to sugg
 
 ## 🗂️ Project Structure
 
-| File / Folder              | Description |
-|---------------------------|-------------|
-| `webpage.py`              | Streamlit web interface for book recommendations |
-| `bookEmbeddings.py`       | Generates semantic embeddings and FAISS index |
-| `testBookSearch.py`       | Command-line test for similarity search |
-| `semantic_book_categories.py` | Classifies books into genres/categories |
-| `book_cleaned.csv`        | Cleaned dataset with book descriptions |
-| `book_metadata.csv`       | Processed book metadata for output |
-| `book_embeddings.npy`     | Numpy file containing sentence embeddings |
-| `book_index.faiss`        | FAISS index for vector search |
+| File / Folder                   | Description |
+|--------------------------------|-------------|
+| `webpage.py`                   | Streamlit web interface for book recommendations |
+| `bookEmbeddings.py`            | Generates semantic embeddings and FAISS index |
+| `testBookSearch.py`            | Command-line test for similarity search |
+| `semantic_book_categories.py`  | Classifies books into genres/categories using semantic analysis |
+| `book_cleaned.csv`             | Cleaned dataset with book descriptions |
+| `book_with_semantic_categories.csv` | Dataset enriched with semantic genre/category labels |
+| `book_metadata.csv`            | Processed book metadata for output |
+| `book_embeddings.npy`          | Numpy file containing sentence embeddings |
+| `book_index.faiss`             | FAISS index for vector search |
 
----
 
 ## ⚙️ Installation
 

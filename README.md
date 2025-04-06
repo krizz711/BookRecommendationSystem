@@ -30,7 +30,7 @@ A content-based book recommendation system that uses semantic embeddings to sugg
 
 ## 📊 Data Source
 
-The book metadata was sourced from the Kaggle dataset [**7k+ Books with Metadata**](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata). It was downloaded using the [`kagglehub`](https://github.com/kagglehub/kagglehub) library:
+The book metadata was sourced from the Kaggle dataset [**7k+ Books with Metadata**](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata). It was downloaded using the [`kagglehub`](https://github.com/kagglehub/kagglehub) library
 
 
 

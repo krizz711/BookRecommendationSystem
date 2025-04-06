@@ -35,7 +35,9 @@ Install the required packages:
 
 pip install sentence-transformers faiss-cpu streamlit pandas numpy
 
-##🧪 Usage
+
+
+## 🧪 Usage
 Step 1: Generate Embeddings & Index
 
 python bookEmbeddings.py
@@ -60,7 +62,8 @@ python testBookSearch.py
 
 python semantic_book_categories.py
 
-##🌟 Features
+ 
+## 🌟 Features
 Semantic search for book descriptions
 
 Genre/category-aware recommendations
@@ -69,12 +72,12 @@ Fast and scalable with FAISS
 
 Minimal UI for interaction (Streamlit)
 
-##🔮 Future Ideas
+## 🔮 Future Ideas
 Add personalized user profiles
 
 Emotion-aware recommendations
 
 Connect with Goodreads / Google Books APIs
 
-##📜 License
+## 📜 License
 MIT License. Feel free to use, share, and modify.

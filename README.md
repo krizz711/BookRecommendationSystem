@@ -15,18 +15,18 @@ A content-based book recommendation system that uses semantic embeddings to sugg
 
 ## 🗂️ Project Structure
 
-| File / Folder                   | Description |
-|--------------------------------|-------------|
-| `webpage.py`                   | Streamlit web interface for book recommendations |
-| `bookEmbeddings.py`            | Generates semantic embeddings and FAISS index |
-| `testBookSearch.py`            | Command-line test for similarity search |
-| `semantic_book_categories.py`  | Classifies books into genres/categories using semantic analysis |
-| `book_cleaned.csv`             | Cleaned dataset with book descriptions |
-| `book_with_semantic_categories.csv` | Dataset enriched with semantic genre/category labels |
-| `book_metadata.csv`            | Processed book metadata for output |
-| `book_embeddings.npy`          | Numpy file containing sentence embeddings |
-| `book_index.faiss`             | FAISS index for vector search |
+| File / Folder              | Description |
+|---------------------------|-------------|
+| `webpage.py`              | Streamlit web interface for book recommendations |
+| `bookEmbeddings.py`       | Generates semantic embeddings and FAISS index |
+| `testBookSearch.py`       | Command-line test for similarity search |
+| `semantic_book_categories.py` | Classifies books into genres/categories |
+| `book_cleaned.csv`        | Cleaned dataset with book descriptions |
+| `book_metadata.csv`       | Processed book metadata for output |
+| `book_embeddings.npy`     | Numpy file containing sentence embeddings |
+| `book_index.faiss`        | FAISS index for vector search |
 
+---
 
 ## ⚙️ Installation
 
@@ -34,13 +34,12 @@ Install the required packages:
 
 ```bash
 pip install sentence-transformers faiss-cpu streamlit pandas numpy
-
 🧪 Usage
-
 Step 1: Generate Embeddings & Index
-
+bash
+Copy
+Edit
 python bookEmbeddings.py
-
 This creates:
 
 book_embeddings.npy
@@ -50,20 +49,21 @@ book_metadata.csv
 book_index.faiss
 
 Step 2: Run the Web App
-
+bash
+Copy
+Edit
 streamlit run webpage.py
-
 Step 3: Test via Command Line
-
+bash
+Copy
+Edit
 python testBookSearch.py
-
 (Optional) Run Category Classifier
-
+bash
+Copy
+Edit
 python semantic_book_categories.py
-
-
 🌟 Features
-
 Semantic search for book descriptions
 
 Genre/category-aware recommendations
@@ -80,5 +80,4 @@ Emotion-aware recommendations
 Connect with Goodreads / Google Books APIs
 
 📜 License
-
 MIT License. Feel free to use, share, and modify.

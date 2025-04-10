@@ -3,6 +3,7 @@
 A content-based book recommendation system that uses semantic embeddings to suggest similar books based on descriptions and categories. Built with **Sentence Transformers**, **FAISS**, and a **Streamlit** web interface.
 
 ---
+![Image](https://github.com/user-attachments/assets/6a8499df-812f-499f-b93e-305e3ed13a4a)
 
 ## 🚀 How It Works
 
